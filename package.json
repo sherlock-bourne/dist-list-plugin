@@ -1,6 +1,6 @@
 {
   "name": "dist-list-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "这是一个可以在打包目录生成包含了打包目录及自定义内容的md文件的plugin",
   "main": "plugins/dist-list-plugin.js",
   "scripts": {

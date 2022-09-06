@@ -27,3 +27,5 @@ module.exports = {
 ```
 
 ## 安装
+
+`npm i dist-list-plugin`
