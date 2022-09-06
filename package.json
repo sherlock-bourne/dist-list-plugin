@@ -1,14 +1,25 @@
 {
-  "name": "make-plugin",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "dist-list-plugin",
+  "version": "1.0.1",
+  "description": "这是一个可以在打包目录生成包含了打包目录及自定义内容的md文件的plugin",
+  "main": "plugins/dist-list-plugin.js",
   "scripts": {
     "debug": "node --inspect --inspect-brk node_modules/webpack/bin/webpack.js",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sherlock-bourne/dist-list-plugin"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "前端",
+    "版本号",
+    "打包",
+    "环境"
+  ],
+  "author": "yixuan",
   "license": "ISC",
   "dependencies": {
     "webpack": "^5.74.0",
